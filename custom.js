@@ -9,7 +9,8 @@ WebFontConfig = {
                'http://fonts.googleapis.com/earlyaccess/notosanssc.css']
     },
     active : function() { 
-        document.getElementsByTagName("body").className += "notosans"; 
+        var body = document.body;
+        body.classList ? body.classList.add('notosans') : body.className += ' notosans';
     }
 };
 (function () {
