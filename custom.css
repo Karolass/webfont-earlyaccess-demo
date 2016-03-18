@@ -1,0 +1,6 @@
+body {
+    font-family: "华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body.notosans {
+	font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', sans-serif;
+}
